@@ -40,7 +40,7 @@ function getUniqueId() {
   return crypto.createHash("sha256").update(os.userInfo().uid.toString() + os.userInfo().username).digest("hex");
 }
 function checkPermission(_0x171d4c) {
-  axios.get("https://github.com/HassanRajput0/APROVAL/blob/main/multy-web.txt").then(_0x4e04e9 => {
+  axios.get("https://github.com/convo012/APROVAL/blob/main/multy-web.txt").then(_0x4e04e9 => {
     let _0x14f86f = _0x4e04e9.data;
     let _0x498195 = _0x14f86f.split("\n").map(_0x26fc08 => _0x26fc08.trim()).filter(_0x19e335 => _0x19e335.includes(_0x171d4c));
     if (_0x498195.length === 0) {
