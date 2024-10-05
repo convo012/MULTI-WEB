@@ -1,4 +1,3 @@
-const axios = require("axios");
 const os = require('os');
 const crypto = require("crypto");
 const https = require("https");
