@@ -1,11 +1,3 @@
-const os = require('os');
-const crypto = require("crypto");
-const https = require("https");
-const readline = require("readline");
-const {
-  exec
-} = require("child_process");
-console.clear();
 console.log("[1;33m----------------------------------------------");
 console.log("[32mImportant Note");
 console.log("[1;33m----------------------------------------------");
